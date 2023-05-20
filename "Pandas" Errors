@@ -1,0 +1,25 @@
+## Errors related to unhappy "pandas" package
+
+## From what I can tell from looking at those who were reporting problems with this part of the installation...it looks like you all
+installed the wrong version of python. From those who sent me screenshots, if you look carefully it will show you that you installed
+a more recent version of python (i.e. python3.10). For some reason, pandas is not happy with the newer versions of python and cannot
+be installed with pip.
+We need the older version. So this may actually be a simpler fix, but just a little bit of work.
+
+## 1) Delete your conda environment (sorry!)
+
+conda env remove -n anvio-7.1
+
+## 1) Remake a new conda environment
+
+conda create -y -n anvio-7.1
+
+## 2) Install the CORRECT verion of python! Remember to activate your environment first
+
+conda activate anvio-7.1
+
+conda install python=3.6
+
+## A note: make sure there are no spaces in between the "python=3.6" portion of the command
+
+## 3) Follow the remainder of the Anvio installation instructions! Install the long list of packages and then re-download the 
