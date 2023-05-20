@@ -1,6 +1,7 @@
 ## Fixing "_sysconfigdata_x86_64_conda_cos6_linux_gnu.py" error
 
-## You will need to go to the directory where your python (v3.6) installed. Then you will need to rename the file so Anvi'o can install correctly.
+## You will need to go to the directory where your python (v3.6) installed. Then you will need to rename the file
+so Anvi'o can install correctly.
 
 ## 1) Go to your python3.6 folder. You can get there by using a command like this:
 
@@ -16,4 +17,6 @@ pwd
 
 mv _sysconfigdata_x86_64_conda_cos6_linux_gnu.py _sysconfigdata_x86_64_conda_linux_gnu.py
 
-## For those that are interested, "mv" is the command for moving files. We are telling the command line to move the first file listed to wherever we list the second location. In this case we are moving/keeping it to the same directory but just changing its name for that Anvi'o can be happy when we install! 
+## For those that are interested, "mv" is the command for moving files. We are telling the command line to move the first
+file listed to wherever we list the second location. In this case we are moving/keeping it to the same directory but just
+changing its name for that Anvi'o can be happy when we install! 
