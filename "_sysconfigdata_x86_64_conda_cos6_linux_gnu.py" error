@@ -21,6 +21,16 @@ mv _sysconfigdata_x86_64_conda_cos6_linux_gnu.py _sysconfigdata_x86_64_conda_lin
 file listed to wherever we list the second location. In this case we are moving/keeping it to the same directory but just
 changing its name for that Anvi'o can be happy when we install! 
 
+## 4) Now we need to rechange to your base directory before re-running the installation commands. Simply:
+
+cd
+
+## This will bring you back to your home directory and where you downloaded the anvio-7.1.tar.gz file. If you want to check:
+
+ls
+
+## This should show the file
+
 
 # Now you can retry the step of installing anvio at the pip installation step:
 
