@@ -22,4 +22,11 @@ conda install python=3.6
 
 ## A note: make sure there are no spaces in between the "python=3.6" portion of the command
 
-## 3) Follow the remainder of the Anvio installation instructions! Install the long list of packages and then re-download the 
+## 3) Follow the remainder of the Anvio installation instructions! Install the long list of packages. If you already ran the 
+step to pull the "anvio-7.1.tar.gz" file you can just skip to running the pip installation. To check, run:
+
+ls
+
+## If this shows the "anvio-7.1.tar.gz" then just run the pip installation:
+
+pip3 install anvio-7.1.tar.gz
