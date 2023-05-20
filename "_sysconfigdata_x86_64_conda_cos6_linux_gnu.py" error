@@ -20,3 +20,8 @@ mv _sysconfigdata_x86_64_conda_cos6_linux_gnu.py _sysconfigdata_x86_64_conda_lin
 ## For those that are interested, "mv" is the command for moving files. We are telling the command line to move the first
 file listed to wherever we list the second location. In this case we are moving/keeping it to the same directory but just
 changing its name for that Anvi'o can be happy when we install! 
+
+
+# Now you can retry the step of installing anvio at the pip installation step:
+
+pip3 install anvio-7.1.tar.gz
